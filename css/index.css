@@ -1,0 +1,238 @@
+
+
+/*banner 部分*/
+.banner {
+	width: 100%;
+	height: 480px;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner .pics li {
+	width: 1920px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+	display: none;
+}
+
+.banner .pics .active {
+	display: block;
+}
+
+.banner .ctrl {
+	width: 120px;
+	height: 12px;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -60px;
+	/*background-color: red;*/
+}
+
+.banner .ctrl li a{
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-right: 15px;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.5;
+}
+
+.banner .ctrl .last {
+	margin-right: 0;
+	background-color: #30BD71;
+}
+
+
+/*产品部分*/
+.content .product {
+	border-bottom: 1px solid #DBE1E7;
+	padding-top: 30px;
+	/*overflow: hidden;*/
+	position: relative;
+	height: 220px;
+}
+
+.content .product ul li {
+	float: left;
+	width: 218px;
+	height: 190px;
+	padding-bottom:30px ;
+	padding-right: 42px;
+}
+
+.content .product ul .product_last {
+	padding-right: 0;
+}
+
+.content .product ul li h5 {
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	color: #444866;
+	padding: 5px 0 15px ;
+}
+
+.content .product ul li p {
+	font-size: 12px;
+	text-align: center;
+	color: #30BD71;
+}
+
+.content .product ul img{
+	display: block;
+}
+
+.content .product ul li a:hover h5,.content .product ul li a:hover p{
+	background-color: #30BD71;
+	color: #FFFFFF;
+}
+
+.content .product ul li a:hover img {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.content .product .pro_ctrl{
+	position: absolute;
+	width: 62px;
+	bottom: -4px;
+	left: 50%;
+	margin-left: -31px;
+	background-color: #FFFFFF;
+}
+
+.content .product .pro_ctrl span {
+	margin-left: 14px;
+	float: left;
+	display: block;
+	background-color: #B5C0CB;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+.content .product .pro_ctrl span.pro_ctrl_current{
+	background-color: #30BD71;
+}
+
+
+/*新闻部分*/
+.content .news {
+	float: left;
+	width: 500px;
+	margin-top: 55px;
+	padding-bottom:59px;
+	
+}
+.content .news .news_title {
+	width: 500px;
+	height: 105px;
+	border-bottom: 1px solid #DBE1E7;
+	position: relative;
+	background-image: url(../img/bynewsbg.jpg);
+	background-repeat: no-repeat;
+}
+
+.content .news .news_title a {
+	position: absolute;
+	bottom: 39px;
+	right: 218px;
+	width: 64px;
+	height: 24px;
+	border: 1px solid #30BD71;
+	border-radius: 7px;
+	/*line-height: 26px;*/
+	padding-top: 6px;
+	text-align: center;
+	color: #33B972;
+}
+
+.content .news .header_news li {
+	height: 50px;
+	border-bottom: 1px solid #E0E1E5;
+	margin: 0 20px;
+	line-height: 50px;
+}
+
+.content .news .header_news li a {
+	color: #000000;
+}
+
+.content .news .header_news li a:hover{
+	color: #30BD71;
+}
+
+.content .news .header_news li span {
+	float: right;
+	color: #AFBECF;
+}
+
+/*招聘部分*/
+.content .employ {
+	float: left;
+	width: 500px;
+	margin-top: 55px;
+	padding-bottom:59px;
+	background-image: url(../img/byhrbg3.jpg);
+	background-repeat: no-repeat;
+}
+
+.content .employ .employ_title {
+	position: relative;
+	width: 218px;
+	height: 65px;
+	padding-left:83px;
+	padding-top: 42px;
+}
+
+.content .employ .employ_title h2 {
+	font-size: 28px;
+	line-height: 34px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.content .employ .employ_title p {
+	color: #fff;
+	padding-left:15px ;
+}
+
+.content .employ .employ_title a {
+	position: absolute;
+	right: 0;
+	top: 42px;
+	width: 64px;
+	height: 22px;
+	border: 1px solid #fff;
+	border-radius: 6px;
+	padding-top: 6px;
+	text-align: center;
+	color: #fff;
+}
+
+.content .employ .post {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.content .employ .job {
+	padding-top: 5px;
+}
+
+.content .employ .job li {
+	padding-left: 20px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #6FDEA3;
+}
+
+.content .employ .job li a {
+	color: #FFFFFF;
+}
+
